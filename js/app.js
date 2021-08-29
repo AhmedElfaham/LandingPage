@@ -177,6 +177,7 @@ var intersectionObserverOptions={
      *  which represent of the section  partial  appearance  at the viewport before callback function fire.     */
     threshold:0.8
 };
+//Use Scrolling and viewport to detect Sections and it's equivalent Navigation list item 
 sectionAutoSelect(intersectionObserverOptions);
 
 // Scroll to section on link click
